@@ -1,0 +1,17 @@
+.nav .nav-item {
+	margin-right: 30px;
+	color: #ffffff;
+	font-weight: 500;
+}
+.nav .nav-item:last-child {
+	margin-right: 0px;
+}
+.nav .nav-item:hover {
+	color: #00E0D0;
+}
+.nav .not-hover:hover {
+	color:  #00E0D0;
+}
+.nav .is-active {
+	color: #00E0D0;
+}

@@ -1,0 +1,72 @@
+.grid-wrapper {
+  overflow: hidden;
+}
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -20px;
+}
+.grid-item {
+  padding: 20px;
+}
+.grid-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.grid-box-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 30px;
+}
+.grid-colmn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.grid-item-form {
+  margin-top: 50px;
+  margin-bottom: 52px;
+}
+.grid-mar-0 {
+  margin: 0;
+}
+.footer-grid {
+  margin-top: 30px;
+}
+.grid-experiance .grid-item {
+  width: 33.33% !important;
+  border-right: 2px solid #EBEBEB;
+  border-top: 2px solid #EBEBEB;
+}
+.not-pd-mrg {
+  padding: 0;
+  margin: -3px;
+}
+.grid-gallery {
+  margin-top: 70px;
+  margin-bottom: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
